@@ -1,0 +1,13 @@
+file_format: "1"
+id: sweep
+name: The sweep 
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - sweep_left
+  - sweep_right
+  - sweep_dongle
