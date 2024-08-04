@@ -530,7 +530,7 @@ bindings = <
    //    	  MEH												     MEH
     &kp A  &kp S  &htl LC(LA(LSHIFT)) D    &htel LCTRL F   &htel LC(LSHIFT) G    &hter RC(RSHIFT) H  &hter RCTRL J   &htr RC(RA(RSHIFT)) K   &kp L    &kp SEMI
     &kp Z  &kp X  &kp C                    &htel LALT V    &htel LS(LALT) B      &hter LS(LALT) N    &hter RALT M    &kp COMMA               &kp DOT  &kp FSLH
-                                           &ptl LCTRL TAB  &ptl LSHIFT SPACE     &ptr RSHIFT ENTER   &ptr RCTRL BSPC
+                                           &kp TAB  &ptl LSHIFT SPACE            &ptr RSHIFT ENTER   &kp BSPC
             >;
         };
 
