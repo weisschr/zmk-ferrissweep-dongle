@@ -15,7 +15,6 @@
 #define LAYER_APPCONTROL 3
 #define LAYER_MOUSE 4
 
-
 // Define positions for combos
 
 #define	qk	0
@@ -69,7 +68,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp C &kp O &kp N &kp T &kp R &kp O &kp L &kp ENTER>
                 ;
@@ -81,7 +80,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp C &kp H &kp R &kp O &kp M &kp E &kp ENTER>
                 ;
@@ -93,7 +92,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp S &kp H &kp E &kp L &kp L &kp COLON &kp M &kp Y &kp C &kp O &kp M &kp P &kp U &kp T &kp E &kp R &kp F &kp O &kp L &kp D &kp E &kp R &kp ENTER>
                 ;
@@ -105,7 +104,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp C &kp O &kp D &kp E &kp ENTER>
                 ;
@@ -117,7 +116,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp M &kp I &kp C &kp R &kp O &kp S &kp O &kp F &kp T &kp MINUS &kp E &kp D &kp G &kp E &kp COLON &kp ENTER>
                 ;
@@ -129,7 +128,7 @@
             bindings
                 = <&macro_press &kp RGUI>
                 , <&macro_tap &kp R>
-		, <&macro_wait_time 200>
+		, <&macro_wait_time 100>
                 , <&macro_release &kp RGUI>
                 , <&macro_tap &kp N &kp O &kp T &kp E &kp P &kp A &kp D &kp PLUS &kp PLUS &kp ENTER>
                 ;
