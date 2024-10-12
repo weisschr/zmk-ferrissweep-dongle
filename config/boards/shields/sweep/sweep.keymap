@@ -531,12 +531,14 @@
             hold-trigger-key-positions = <LEFT_K THUMB_K>;
             bindings = <&kp>, <&kp>;
         };
-	sticky_lctrl: behavior_sticky {
+
+	sticky_lctrl: sticky_lctrl {
         compatible = "zmk,behavior-sticky-key";
         label = "Sticky LCTRL";
         bindings = <&kp LCTRL>;
         };
-  	sticky_lalt: behavior_sticky {
+
+  	sticky_lalt: sticky_lalt {
         compatible = "zmk,behavior-sticky-key";
         label = "Sticky LALT";
         bindings = <&kp LALT>;
