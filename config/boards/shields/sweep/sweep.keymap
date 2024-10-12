@@ -533,15 +533,17 @@
         };
 
 	sticky_lctrl: sticky_lctrl {
-        compatible = "zmk,behavior-sticky-key";
-        label = "Sticky LCTRL";
-        bindings = <&kp LCTRL>;
+        	compatible = "zmk,behavior-sticky-key";
+        	#binding-cells = <1>;
+            	label = "Sticky LCTRL";
+        	bindings = <&kp LCTRL>;
         };
 
   	sticky_lalt: sticky_lalt {
-        compatible = "zmk,behavior-sticky-key";
-        label = "Sticky LALT";
-        bindings = <&kp LALT>;
+        	compatible = "zmk,behavior-sticky-key";
+        	#binding-cells = <1>;
+            	label = "Sticky LALT";
+        	bindings = <&kp LALT>;
         };
     };
 
