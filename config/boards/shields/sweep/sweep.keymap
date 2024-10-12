@@ -397,6 +397,19 @@
             key-positions = <tk yk>;
             bindings = <&kp LS(LC(O))>;
         };
+	
+	// OSM keys
+
+	combo_osmctrl {
+	    timeout-ms = <50>;
+            key-positions = <dk kk>;
+            bindings = <&sk LCTRL>;
+        };
+	combo_osmalt {
+	    timeout-ms = <50>;
+            key-positions = <ck commak>;
+            bindings = <&sk LALT>;
+        };	
 
 	// Boot key combos
 
