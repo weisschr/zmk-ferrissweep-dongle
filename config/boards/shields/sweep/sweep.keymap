@@ -403,12 +403,12 @@
 	combo_osmctrl {
 	    timeout-ms = <50>;
             key-positions = <dk kk>;
-            bindings = <&sk LCTRL>;
+            bindings = <&sticky_lctrl>;
         };
 	combo_osmalt {
 	    timeout-ms = <50>;
             key-positions = <ek ik>;
-            bindings = <&sk LALT>;
+            bindings = <&sticky_lalt>;
         };	
 
 	// Boot key combos
@@ -530,6 +530,16 @@
             require-prior-idle-ms = <120>;
             hold-trigger-key-positions = <LEFT_K THUMB_K>;
             bindings = <&kp>, <&kp>;
+        };
+	sticky_lctrl: behavior_sticky {
+        compatible = "zmk,behavior-sticky-key";
+        label = "Sticky LCTRL";
+        bindings = <&kp LCTRL>;
+        };
+  	sticky_lalt: behavior_sticky {
+        compatible = "zmk,behavior-sticky-key";
+        label = "Sticky LALT";
+        bindings = <&kp LALT>;
         };
     };
 
