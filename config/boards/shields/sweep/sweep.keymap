@@ -407,7 +407,7 @@
         };
 	combo_osmalt {
 	    timeout-ms = <50>;
-            key-positions = <ck commak>;
+            key-positions = <ek ik>;
             bindings = <&sk LALT>;
         };	
 
