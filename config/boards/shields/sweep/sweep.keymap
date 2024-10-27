@@ -411,6 +411,19 @@
             bindings = <&bootloader>;
         };
 
+        // OSM keys
+
+        combo_osmctrl {
+           timeout-ms = <50>;
+           key-positions = <dk kk>;
+           bindings = <&sk LCTRL>
+        };
+
+        combo_osmalt {
+           timeout-ms = <50>;
+           key-positions = <dk kk>;
+           bindings = <&sk LALT>
+        };
     };
 };
 
