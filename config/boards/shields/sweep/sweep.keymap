@@ -397,20 +397,6 @@
             key-positions = <tk yk>;
             bindings = <&kp LS(LC(O))>;
         };
-	
-	// OSM keys
-
-	combo_osmctrl {
-	    timeout-ms = <50>;
-            key-positions = <dk kk>;
-            bindings = <&sticky_lctrl>;
-        };
-	combo_osmalt {
-	    timeout-ms = <50>;
-            key-positions = <ek ik>;
-            bindings = <&sticky_lalt>;
-        };	
-
 	// Boot key combos
 
 	combo_bootleft {
@@ -530,20 +516,6 @@
             require-prior-idle-ms = <120>;
             hold-trigger-key-positions = <LEFT_K THUMB_K>;
             bindings = <&kp>, <&kp>;
-        };
-
-	sticky_lctrl: sticky_lctrl {
-        	compatible = "zmk,behavior-sticky-key";
-        	#binding-cells = <1>;
-            	label = "Sticky LCTRL";
-        	bindings = <&kp LCTRL>;
-        };
-
-  	sticky_lalt: sticky_lalt {
-        	compatible = "zmk,behavior-sticky-key";
-        	#binding-cells = <1>;
-            	label = "Sticky LALT";
-        	bindings = <&kp LALT>;
         };
     };
 
