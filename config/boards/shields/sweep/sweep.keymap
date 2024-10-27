@@ -416,13 +416,13 @@
         combo_osmctrl {
            timeout-ms = <50>;
            key-positions = <dk kk>;
-           bindings = <&sk LEFT_CONTROL>;
+           bindings = <&kp LEFT_CONTROL>;
         };
 
         combo_osmalt {
            timeout-ms = <50>;
            key-positions = <ek ik>;
-           bindings = <&sk LEFT_ALT>;
+           bindings = <&kp LEFT_ALT>;
         };
     };
 };
