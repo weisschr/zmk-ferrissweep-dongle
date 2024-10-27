@@ -421,7 +421,7 @@
 
         combo_osmalt {
            timeout-ms = <50>;
-           key-positions = <dk kk>;
+           key-positions = <ek ik>;
            bindings = <&sk LEFT_ALT>;
         };
     };
