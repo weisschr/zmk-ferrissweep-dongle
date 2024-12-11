@@ -294,12 +294,6 @@
         
 	// activate number layer with shift when held.
 
-	comnbo_layermod_right {
-	    timeout-ms = <50>;
-            key-positions = <sk fk>;
-            bindings = <&lm LAYER_NUMBSYM LSHIFT>;
-	};
-
 	comnbo_layermod_left {
 	    timeout-ms = <50>;
             key-positions = <hk jk>;
@@ -341,11 +335,6 @@
             timeout-ms = <50>;
             key-positions = <dk gk>;
             bindings = <&kp DEL>;
-        };
-	combo_ins {
-            timeout-ms = <50>;
-            key-positions = <ck bk>;
-            bindings = <&kp INS>;
         };
 	combo_leftarr {
             timeout-ms = <100>;
