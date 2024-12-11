@@ -424,6 +424,24 @@
            key-positions = <ek ik>;
            bindings = <&kp LEFT_ALT>;
         };
+
+	// Mouse combos
+
+	combo_left_click {
+            timeout-ms = <50>;
+            key-positions = <sk fk>;
+            bindings = <&mkp LCLK>;
+        };
+	combo_right_click {
+            timeout-ms = <50>;
+            key-positions = <wk rk>;
+            bindings = <&mkp  RCLK>;
+        };
+	combo_middle_click {
+            timeout-ms = <50>;
+            key-positions = <ek tk>;
+            bindings = <&mkp MCLK>;
+        }; 
     };
 };
 
