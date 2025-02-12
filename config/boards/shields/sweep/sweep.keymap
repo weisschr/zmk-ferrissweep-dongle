@@ -543,12 +543,10 @@
         compatible = "zmk,keymap";
 alpha_layer {
 bindings = <
-   //             HYPER           										     HYPER
-    &kp Q  &kp W  &htl LS(LC(LA(LGUI))) E  &htl LC(LALT) R &htl LGUI T           &htr RGUI Y         &htr RC(RALT) U &htr RS(RC(RA(RGUI))) I &kp O    &kp P
-   //    	  MEH												     MEH
-    &kp A  &kp S  &htl LC(LA(LSHIFT)) D    &htel LCTRL F   &htel LC(LSHIFT) G    &hter RC(RSHIFT) H  &hter RCTRL J   &htr RC(RA(RSHIFT)) K   &kp L    &kp SEMI
-    &kp Z  &kp X  &kp C                    &htel LALT V    &htel LS(LALT) B      &hter LS(LALT) N    &hter RALT M    &kp COMMA               &kp DOT  &kp FSLH
-                                           &kp TAB         &ptl LSHIFT SPACE     &ptr RSHIFT ENTER   &kp BSPC
+    &kp Q  &kp W  &kp E    &kp R           &htl LGUI T           &htr RGUI Y         &kp U              &kp I       &kp O    &kp P
+    &kp A  &kp S  &kp D    &htel LCTRL F   &htel LC(LSHIFT) G    &hter RC(RSHIFT) H  &hter RCTRL J      &kp K       &kp L    &kp SEMI
+    &kp Z  &kp X  &kp C    &htel LALT V    &kp B                 &kp  N              &hter RALT M       &kp COMMA   &kp DOT  &kp FSLH
+                                           &kp TAB               &ptl LSHIFT SPACE   &ptr RSHIFT ENTER  &kp BSPC
             >;
         };
 
