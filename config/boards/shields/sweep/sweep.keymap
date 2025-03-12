@@ -417,7 +417,7 @@
         combo_osmalt {
            timeout-ms = <50>;
            key-positions = <ck commak>;
-           bindings = <&skt LEFT_ALT>;
+           bindings = <&skt LALT>;
         };
 
 	combo_osmshift {
@@ -437,7 +437,6 @@
            key-positions = <wk ok>;
            bindings = <&skt LG(LC(LA(LSHIFT)))>;
         };
-
 
 	// Mouse combos
 
