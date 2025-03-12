@@ -410,7 +410,7 @@
 
 	combo_osmctl {
            timeout-ms = <50>;
-           key-positions = <dk jk>;
+           key-positions = <dk kk>;
            bindings = <&skt LCTRL>;
         };
 
@@ -422,7 +422,7 @@
 
 	combo_osmshift {
            timeout-ms = <50>;
-           key-positions = <sk kk>;
+           key-positions = <sk lk>;
            bindings = <&skt LSHIFT>;
         };
 
