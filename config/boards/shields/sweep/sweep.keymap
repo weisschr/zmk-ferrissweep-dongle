@@ -402,17 +402,42 @@
 
         // OSM keys
 
-        combo_osmctrl {
+        combo_osmgui {
            timeout-ms = <50>;
-           key-positions = <dk kk>;
-           bindings = <&kp LEFT_CONTROL>;
+           key-positions = <ek ik>;
+           bindings = <&skt LGUI>;
+        };
+
+	combo_osmctl {
+           timeout-ms = <50>;
+           key-positions = <dk jk>;
+           bindings = <&skt LCTRL>;
         };
 
         combo_osmalt {
            timeout-ms = <50>;
-           key-positions = <ek ik>;
+           key-positions = <ck commak>;
            bindings = <&skt LEFT_ALT>;
         };
+
+	combo_osmshift {
+           timeout-ms = <50>;
+           key-positions = <sk kk>;
+           bindings = <&skt LSHIFT>;
+        };
+
+	combo_osmmeh {
+           timeout-ms = <50>;
+           key-positions = <xk periodk>;
+           bindings = <&skt LC(LA(LSHIFT))>;
+        };
+
+	combo_osmhyper {
+           timeout-ms = <50>;
+           key-positions = <wk ok>;
+           bindings = <&skt LG(LC(LA(LSHIFT)))>;
+        };
+
 
 	// Mouse combos
 
