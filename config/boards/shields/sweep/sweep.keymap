@@ -537,13 +537,20 @@
             hold-trigger-key-positions = <LEFT_K THUMB_K>;
             bindings = <&kp>, <&kp>;
         };
+	skt: stick_key_test {
+            compatible = "zmk,behavior-sticky-key";
+            #binding-cells = <1>;
+            bindings = <&kp>;
+            release-after-ms = <3000>;
+            ignore-modifiers;
+      };
     };
 
     keymap {
         compatible = "zmk,keymap";
 alpha_layer {
 bindings = <
-    &kp Q  &kp W  &kp E    &kp R           &htl LGUI T           &sk RGUI            &kp U              &kp I       &kp O    &kp P
+    &kp Q  &kp W  &kp E    &kp R           &htl LGUI T           &skt RGUI           &kp U              &kp I       &kp O    &kp P
     &kp A  &kp S  &kp D    &htel LCTRL F   &htel LC(LSHIFT) G    &hter RC(RSHIFT) H  &hter RCTRL J      &kp K       &kp L    &kp SEMI
     &kp Z  &kp X  &kp C    &htel LALT V    &kp B                 &kp  N              &hter RALT M       &kp COMMA   &kp DOT  &kp FSLH
                                            &kp TAB               &ptl LSHIFT SPACE   &ptr RSHIFT ENTER  &kp BSPC
