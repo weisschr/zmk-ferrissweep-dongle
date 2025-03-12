@@ -405,13 +405,13 @@
         combo_osmctrl {
            timeout-ms = <50>;
            key-positions = <dk kk>;
-           bindings = <&kp LEFT_CONTROL>;
+           bindings = <&sk LEFT_CONTROL>;
         };
 
         combo_osmalt {
            timeout-ms = <50>;
            key-positions = <ek ik>;
-           bindings = <&kp LEFT_ALT>;
+           bindings = <&sk LEFT_ALT>;
         };
 
 	// Mouse combos
