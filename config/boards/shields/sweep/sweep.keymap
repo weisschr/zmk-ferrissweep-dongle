@@ -594,19 +594,19 @@ bindings = <
 
 function_layer {
 bindings = <
-    &kp C_PLAY      &kp C_STOP &kp C_NEXT &kp C_AC_BACK  &kp F11              &kp F12             &kp C_MUTE  &kp K_VOL_UP  &kp C_VOL_DN  &kp RG(L)
-    &kp F1          &kp F2     &kp F3     &kp F4         &kp F5               &kp F6              &kp F7      &kp F8        &kp F9        &kp F10
-    &kp LC(LA(DEL)) &kp LGUI   &kp LALT   &kp LCTRL      &kp LC(LA(LSHIFT))   &kp RC(RA(RSHIFT))  &kp RCTRL   &kp RALT      &kp RGUI      &kp LC(LA(DEL))
+    &kp C_PLAY      &kp C_STOP &kp C_NEXT &kp C_AC_BACK  &kp F11              &kp F12             &kp K_VOL_UP &kp C_VOL_DN  &kp C_MUTE  &kp RG(L)
+    &kp F1          &kp F2     &kp F3     &kp F4         &kp F5               &kp F6              &kp F7       &kp F8        &kp F9      &kp F10
+    &kp LC(LA(DEL)) &kp LGUI   &kp LALT   &kp LCTRL      &kp LC(LA(LSHIFT))   &kp RC(RA(RSHIFT))  &kp RCTRL    &kp RALT      &kp RGUI    &kp LC(LA(DEL))
                                           &trans         &trans               &trans              &trans
             >;
         };
 
 appcontrol_layer {
 bindings = <
-     &bt BT_CLR  &bt BT_SEL 0 &kp LS(LC(LA(LG(L))))  &kp LS(LC(LA(LG(O))))  &kp LS(LC(LA(LG(T))))    &kp LG(E)      &kp C_BRI_UP    &kp C_BRI_DN    &bt BT_SEL 0 &bt BT_CLR
-     &bootloader &bt BT_SEL 1 &control_panel         &kp LS(LC(LA(LG(P))))  &kp LS(LC(LA(LG(W))))    &kp C_AL_CALC  &kp RC(RS(ESC)) &kp LG(R)       &bt BT_SEL 1 &bootloader
-     &sys_reset  &bt BT_SEL 2 &launch_chrome         &kp LG(DOT)            &kp LS(LC(LA(LG(X))))    &kp LS(LG(S))  &kp LG(V)       &mycomputer     &bt BT_SEL 2 &sys_reset
-                                                     &trans                 &trans                   &trans         &trans
+&bt BT_CLR  &bt BT_SEL 0 &kp LG(DOT)     &kp LG(R)              &kp LS(LC(LA(LG(T))))    &kp LS(LC(LA(LG(P)))) &kp C_BRI_UP    &kp C_BRI_DN          &bt BT_SEL 0 &bt BT_CLR
+&bootloader &bt BT_SEL 1 &control_panel  &kp LG(E)              &kp LS(LC(LA(LG(W))))    &kp C_AL_CALC         &kp RC(RS(ESC)) &kp LS(LC(LA(LG(L)))) &bt BT_SEL 1 &bootloader
+&sys_reset  &bt BT_SEL 2 &kp LG(V)       &kp LS(LC(LA(LG(O))))  &kp LS(LC(LA(LG(X))))    &kp LS(LG(S))         &trans          &mycomputer           &bt BT_SEL 2 &sys_reset
+                                         &trans                 &trans                   &trans                &trans
             >;
         };
 
